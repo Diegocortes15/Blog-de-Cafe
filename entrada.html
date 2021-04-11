@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogDeCafé</title>
+    <meta name="description" content="Página web de blog de café">
+    <!-- Prefetch -->
+    <link rel="prefetch" href="nosotros.html" as="document">
+
+    <!-- Preload -->
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+        <div class="header__texto">
+            <h2 class="no-margin">Blog de café con consejos y cursos</h2>
+            <p class="no-margin">Aprende de los consejos con las mejores recetas y consejos</p>
+        </div>
+    </header>
+
+    <main class="contenedor">
+        <h3 class="centrar-texto">Sobre Nosotros</h3>
+        <img loading="lazy" src="img/blog1.jpg" alt="imagen del blog">
+        <p>
+            Phasellus a aliquam orci. Donec eu efficitur dui, faucibus congue turpis. Donec molestie ex massa, nec hendrerit arcu hendrerit sit amet. Morbi fermentum rhoncus aliquet. Sed quis turpis est. Nulla in turpis commodo, eleifend lacus eu, dapibus neque.
+            Nam ut sem id eros commodo blandit ut sed velit. Pellentesque id suscipit justo, id elementum ipsum. Morbi posuere nunc sit amet rutrum tempus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras
+            lacinia arcu vel est suscipit, a posuere felis rutrum. Fusce porta, ligula mattis vulputate dapibus, nulla sapien gravida mi, eget pulvinar dolor nibh eget libero. Nulla facilisi. Aenean vitae tincidunt risus.
+        </p>
+        <p>
+            Vestibulum sollicitudin nisl ut sem aliquet, id facilisis massa elementum. Duis posuere iaculis augue, non ullamcorper massa tincidunt eget. Phasellus ac magna sed erat condimentum rhoncus eu nec nulla. Ut id placerat metus. Ut et maximus velit. Suspendisse
+            volutpat suscipit risus eu consequat. Etiam placerat rhoncus nibh. Etiam sit amet augue quis massa tincidunt ullamcorper vel in eros. Donec quam felis, dignissim vitae odio eget, auctor rutrum dolor. Nunc vehicula quis sem in porttitor. Nunc
+            pulvinar leo vitae condimentum posuere. Praesent massa leo, faucibus nec sapien non, finibus aliquet lectus.
+        </p>
+        <p>
+            In hac habitasse platea dictumst. Nam tortor risus, maximus at egestas eget, mattis vel massa. Duis laoreet urna sem, a tincidunt lacus varius id. Nam ligula orci, ultricies quis nunc sit amet, rutrum eleifend nisl. Aenean id porta odio, eget tempus est.
+            Praesent faucibus nec risus accumsan interdum. Sed faucibus, justo et faucibus feugiat, nulla ligula dapibus quam, vel suscipit lectus leo nec augue. Morbi malesuada ante neque, eget dapibus nisi porta id. Integer placerat sagittis massa,
+            at iaculis quam aliquet quis. Nullam pretium ligula id ante tincidunt pharetra.
+        </p>
+    </main>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/modernizr.js"></script>
+
+</body>
+
+</html>
