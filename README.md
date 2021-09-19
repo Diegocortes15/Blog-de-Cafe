@@ -2,4 +2,4 @@
 
 Click the link below
 
-[Blog de Cafe](blogdecafe-diego.netlify.app)
+[Blog de Cafe](https://blogdecafe-diego.netlify.app/)
